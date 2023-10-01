@@ -12,7 +12,8 @@ class YoutubeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_youtube)
 
-        val youtubeId = "fJn9B64Znrk"
+        val youtubeId = "fJn9B64Z" +
+                "nrk"
         val youtubeWebView : WebView = findViewById(R.id.YtVideo)
         val webSettings : WebSettings = youtubeWebView.settings
         webSettings.javaScriptEnabled = true
